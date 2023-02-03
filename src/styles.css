@@ -31,12 +31,17 @@ body {
   text-decoration: none;
   font-size: 15px;
   font-family: inherit;
+  transition: all 300ms ease-in-out;
 }
 .btn:focus {
   outline: none;
 }
 .btn:active {
-  transform: scale(0.98);
+  transform: scale(0.9);
+}
+.btn:hover {
+  filter:brightness(1.3);
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.499);
 }
 
 .btn-block {
